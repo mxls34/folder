@@ -14,6 +14,8 @@ public class c {
         }else{
             JOptionPane.showMessageDialog(null, "Your number is " + strnum,"ANSWER",JOptionPane.WARNING_MESSAGE);
         }
+        System.exit(0);
+
 
 
     }
