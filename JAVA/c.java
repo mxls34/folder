@@ -13,6 +13,7 @@ public class c {
             JOptionPane.showMessageDialog(null, "Your number is " + strnum,"ANSWER",JOptionPane.INFORMATION_MESSAGE);          
         }else{
             JOptionPane.showMessageDialog(null, "Your number is " + strnum,"ANSWER",JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(null, "HAPPY NEW YEAR","1 January 2025",JOptionPane.INFORMATION_MESSAGE);
         }
         System.exit(0);
 
