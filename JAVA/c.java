@@ -8,11 +8,11 @@ public class c {
         int num = Integer.parseInt(strnum);
         
         if (num >= 0){
-            JOptionPane.showMessageDialog(null, "Your number is " + strnum, "ANSWER", JOptionPane.PLAIN_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Your number is " + strnum, "ANSWER", JOptionPane.INFORMATION_MESSAGE);
         }else if (num == 0){
-            System.out.println(num + "is zero");            
+            JOptionPane.showMessageDialog(null, "Your number is " + strnum,"ANSWER",JOptionPane.INFORMATION_MESSAGE);          
         }else{
-            System.out.println(num + "less than zero");
+            JOptionPane.showMessageDialog(null, "Your number is " + strnum,"ANSWER",JOptionPane.WARNING_MESSAGE);
         }
 
 
