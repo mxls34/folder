@@ -18,9 +18,8 @@ public class c {
                 JOptionPane.showMessageDialog(null, "HAPPY NEW YEAR","1 January 2025",JOptionPane.INFORMATION_MESSAGE);
                 JOptionPane.showMessageDialog(null, " Hi ", "Say", JOptionPane.INFORMATION_MESSAGE);
                 done = false;
-            }    
+            }
+            System.exit(0);    
         }
-        System.exit(0);
-
     }
 }
